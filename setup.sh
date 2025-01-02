@@ -4,7 +4,7 @@
 SCRIPT_DIR=$(dirname "$(realpath "${BASH_SOURCE[0]}")")
 
 # Define the Git excludes file and the symlink in the home directory
-GIT_EXCLUDES_FILE="$SCRIPT_DIR/.gitignore_global"
+GIT_EXCLUDES_FILE="$SCRIPT_DIR/gitignore_global"
 SYMLINK_PATH="$HOME/.gitignore_global"
 
 # Create a symlink to the Git excludes file in the home directory
