@@ -4,3 +4,6 @@
 .emacs.d/
 *.#*
 \#*
+
+# VS Code
+.vscode
